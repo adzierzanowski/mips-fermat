@@ -42,7 +42,7 @@ prompt_repeat:
 	li $v0, 12
 	syscall
 	
-	li $t0, 'y'
+	li $t0, 't'
 	beq $v0, $t0, main 
 
 	li $v0, 10
